@@ -7,7 +7,7 @@ spec:
    - name: nginx
      image: nginx
      env:
-     configMapRef:
+     - configMapRef:
        name: devopswithaws
     #  env:
     #  - name: course
