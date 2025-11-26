@@ -51,8 +51,8 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    project: expense
     purpose: ebs-static
+    project: expense
   ports:
   - protocol: TCP
     port: 80 #service-port
