@@ -25,4 +25,4 @@ spec:
   volumeName: efs-static
   resources:
     requests:
-      storage: 5Gi
+      storage: 2Gi
